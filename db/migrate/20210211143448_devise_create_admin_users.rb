@@ -20,9 +20,6 @@ class DeviseCreateAdminUsers < ActiveRecord::Migration[6.1]
       # t.datetime :last_sign_in_at
       # t.string   :current_sign_in_ip
       # t.string   :last_sign_in_ip
-	  # Omniauth 
-	  add_column :users, :provider, :string
-	  add_column :users, :uid, :string
 
 
       ## Confirmable
