@@ -9,4 +9,5 @@ environment.plugins.append('Provide', new webpack.ProvidePlugin({
 }))
 
 environment.plugins.prepend('jquery', jquery)
+environment.plugins.prepend('jquery', jquery)
 module.exports = environment

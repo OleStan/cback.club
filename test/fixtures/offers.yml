@@ -2,6 +2,12 @@
 
 one:
   name: MyText
+  image: MyText
+  link: MyText
+  category: one
 
 two:
   name: MyText
+  image: MyText
+  link: MyText
+  category: two
